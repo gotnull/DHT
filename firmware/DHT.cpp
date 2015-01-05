@@ -6,6 +6,10 @@ written by Adafruit Industries
 
 #include "DHT.h"
 
+#define cli noInterrupts
+#define sei interrupts
+#define NAN 9999999
+
 DHT::DHT(uint8_t pin, uint8_t type, uint8_t count) {
   _pin = pin;
   _type = type;
