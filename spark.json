@@ -1,6 +1,6 @@
 {
     "name": "DHT",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Fulvio Cusumano <fcusumano@gmail.com>",
     "license": "BSD license, all text above must be included in any redistribution",
     "description": "DHT library for SparkCore"
